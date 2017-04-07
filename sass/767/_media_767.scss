@@ -1,0 +1,12 @@
+@media only screen and (max-width: 767px)  {
+
+    @import "767/breadcrumb";
+    @import "767/layout";
+	@import "767/forms";
+	@import "767/fixed_panel";
+    @import "767/validation";
+    @import "767/filters";
+    @import "767/report";
+    @import "767/crud";
+    @import "767/testing";
+}	

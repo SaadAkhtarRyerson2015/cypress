@@ -1,0 +1,12 @@
+@media only screen and (min-width: 922px) {
+	
+    @import "922/layout";
+	@import "922/breadcrumb";
+	@import "922/forms";
+    @import "922/fixed_panel";
+    @import "922/validation";
+    @import "922/filters";
+    @import "922/report";
+    @import "922/crud";
+    @import "922/testing";
+}

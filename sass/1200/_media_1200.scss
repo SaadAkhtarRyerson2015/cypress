@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1200px) {
+
+    @import "1200/layout";
+    @import "1200/breadcrumb";
+	@import "1200/forms";
+    @import "1200/fixed_panel";
+    @import "1200/validation";
+    @import "1200/filters";
+    @import "1200/report";
+    @import "1200/crud";
+    @import "1200/content_list";
+    @import "1200/user";
+    @import "1200/testing";
+}

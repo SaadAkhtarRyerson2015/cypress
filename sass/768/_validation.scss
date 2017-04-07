@@ -1,0 +1,22 @@
+.text-error, .select-error 
+{
+	background-color: #FFB2B2;	
+	color: #B20000;
+	margin-top: 2%;
+    margin-bottom: 0;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 1%;
+}
+
+.radio-error 
+{
+	background-color: #FFB2B2;	
+	color: #B20000;
+	margin-top: 0.5%;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 1% 2% 1% 2%;
+}

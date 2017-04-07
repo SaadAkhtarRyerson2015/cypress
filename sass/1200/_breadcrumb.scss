@@ -1,0 +1,78 @@
+div.breadcrumb-parent
+{
+    padding: 0;
+}
+
+ul.my-breadcrumb 
+{ 
+	list-style: none; 
+	overflow: hidden; 
+	font: 18px Helvetica, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+}
+
+
+ul.my-breadcrumb li 
+{ 
+	float: left; 
+}
+
+ul.my-breadcrumb li a {
+	color: white;
+	text-decoration: none; 
+	padding: 10px 0 10px 65px;
+	background: #2D9434;                   /* fallback color */
+	//background: hsla(34,85%,35%,1); 
+	position: relative; 
+	display: block;
+	float: left;
+}
+
+ul.my-breadcrumb li a:after { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid #2D9434;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	left: 100%;
+	z-index: 2; 
+}
+
+ul.my-breadcrumb li a:before { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;       
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1; 
+}
+
+ul.my-breadcrumb li:first-child a {
+	padding-left: 10px;
+    background: #2D9434;
+}
+ul.my-breadcrumb li:nth-child(2) a       { background:        #4CAE52; }
+ul.my-breadcrumb li:nth-child(2) a:after { border-left-color: #4CAE52; }
+ul.my-breadcrumb li:last-child a {
+	background: #77CC7D;
+	color: white;
+	pointer-events: none;
+	cursor: default;
+}
+ul.my-breadcrumb li:last-child a:after {
+	border-left-color: #77CC7D;
+}

@@ -1,0 +1,43 @@
+div.breadcrumb-parent
+{
+    padding: 0;
+}
+
+ul.my-breadcrumb 
+{ 
+	list-style: none; 
+	overflow: hidden; 
+	font: 12px Helvetica, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+
+ul.my-breadcrumb li 
+{ 
+	float: left; 
+}
+
+ul.my-breadcrumb li a {
+	color: white;
+	text-decoration: none; 
+	padding: 5px 10px 5px 10px;
+	background: #2D9434;                   /* fallback color */
+	//background: hsla(34,85%,35%,1); 
+	position: relative; 
+	display: block;
+	float: left;
+}
+
+
+
+ul.my-breadcrumb li:first-child a { padding-left: 10px; }
+ul.my-breadcrumb li:nth-child(2) a       { background:        #77CC7D; }
+ul.my-breadcrumb li:last-child a {
+	background: #77CC7D;
+	color: white;
+	pointer-events: none;
+	cursor: default;
+}

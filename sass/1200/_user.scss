@@ -1,0 +1,55 @@
+.user-header
+{
+    min-height: 100px;
+    background: whitesmoke;
+
+}
+
+.user-footer
+{
+    min-height: 350px;
+    background: #181818;
+}
+
+
+.user-logo
+{
+    margin-top: 10%;
+    padding: 0px;
+    
+    h1
+    {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 32px;
+    }
+}
+
+.login-form
+{
+   
+    min-height: 200px;
+    //background: #464646;
+    //background: #181818;
+    background: whitesmoke;
+    margin-top: 1%;
+    padding: 0px;
+    padding-bottom: 2%;
+    
+    h4
+    {
+        border-bottom: 4px solid #4CAF50;
+        margin: 0px;
+        padding: 4%;
+        background: #181818;
+        color: whitesmoke;
+        margin-bottom: 5%;
+    }
+    
+    form 
+    {
+        .input-group
+        {
+            margin-bottom: 2%;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+div.fixed-panel-trigger
+{
+    border: 3px solid #2D9434;
+    border-right: none;
+
+    position: fixed;
+    right: 0;
+    bottom: 1%;
+    
+    z-index: 9999;
+    
+    width: 60px;
+    height: 60px;
+    
+    background: black;
+    
+    overflow: auto;
+    
+    text-align: center;
+    padding: 0.5%;
+    
+    a
+    { 
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    
+}
+
+div.fixed-panel
+{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    color: black;
+     opacity: 0.98;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    overflow: auto;
+    
+    
+    h1
+    {
+        
+        margin: 0%;
+        width: 100%;
+        background: #464646;
+        color:white;
+        padding: 1%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 26px;
+        
+        
+         a.toggle-fixed-panel
+        { 
+            
+            text-decoration: none;
+            color: whitesmoke;
+            
+            position: absolute;
+            right: 10%;
+            
+        }
+    }
+    
+    div.fixed-panel-header-line
+    {
+        height: 5px;
+        line-height: 5px;
+        background: #77CC7D;
+    }
+    
+    p 
+    {
+        padding: 2%;
+        
+        a
+        { 
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: black;
+        }
+       
+    }
+    
+    
+    
+}

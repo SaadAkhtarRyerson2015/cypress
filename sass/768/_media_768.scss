@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px)  {
+
+    @import "768/layout";
+	@import "768/breadcrumb";
+	@import "768/forms";
+	@import "768/fixed_panel";
+    @import "768/validation";
+    @import "768/filters";
+    @import "768/report";
+    @import "768/crud";
+    @import "768/testing";
+}	

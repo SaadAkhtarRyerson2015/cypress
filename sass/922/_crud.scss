@@ -1,0 +1,39 @@
+.crud-row
+{
+    border-bottom: 1px solid #DDE4E9;
+    background-color: #F8F8F8;
+    
+    .crud-row-item
+    {
+        padding: 1%;
+        border-right: 1px solid #DDE4E9;
+        span, a { display: block; }
+    }
+}
+
+
+.crud-action
+{
+    border: 1px solid #DDE4E9;
+    border-top: none;
+    padding: 3%;
+    
+    
+    label { text-decoration: underline; }
+    textarea { margin: 0% 0% 1% 0%; }
+    .crud-delete-item { font-weight: bold; text-decoration: underline; }
+    .crud-action-options { margin-top: 2%; }
+    
+    .crud-action-list
+    {
+        border-bottom: 1px solid #DDE4E9;
+        background-color: #F8F8F8;
+        
+        .crud-action-list-item 
+        {
+            padding: 1%;
+            border-right: 1px solid #DDE4E9;
+            display: inline-block;
+        }
+    }
+}

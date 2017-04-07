@@ -1,0 +1,87 @@
+.crud-row
+{
+    border-bottom: 1px solid #DDE4E9;
+    background-color: #F8F8F8;
+    
+    .crud-row-item
+    {
+        /* These are technically the same, but use both */
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+
+        /* Adds a hyphen where the word breaks, if supported (No Blink) */
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+        
+        padding: 4% 2% 4% 2%;
+        border-right: 1px solid #DDE4E9;
+        span, a { display: block; }
+    }
+    
+    .crud-row-item:last-child
+    {
+        border-right: none;
+    }
+}
+
+
+.crud-action
+{
+    border: 1px solid #DDE4E9;
+    border-top: none;
+    padding: 3%;
+    
+    
+    label { text-decoration: underline; }
+    textarea { margin: 0% 0% 1% 0%; }
+    .crud-delete-item { font-weight: bold; text-decoration: underline; }
+    .crud-action-options { margin-top: 2%; }
+    
+    .crud-action-list
+    {
+        border-bottom: 1px solid #DDE4E9;
+        background-color: #F8F8F8;
+        
+        .crud-action-list-item 
+        {
+            padding: 1%;
+            border-right: 1px solid #DDE4E9;
+            display: inline-block;
+        }
+    }
+}
+
+
+.crud-action-mobile-options
+{
+    .mobile-option
+    {
+       
+        text-align: center;
+        padding: 0%;
+        margin-top: 1%;
+        
+        a
+        {
+            border: 1px solid #DDE4E9;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+            &:hover
+            {
+                 border: 1px solid whitesmoke;
+            }
+        }
+    }
+}

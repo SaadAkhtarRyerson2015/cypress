@@ -1,0 +1,79 @@
+span.review-label { font-size: 12px; }
+
+a.report_options
+{
+    color: black;
+    text-decoration: none;
+
+     &:hover { color: gray; }
+}
+
+div.total-records, div.clear-filters
+{
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    p
+    {
+        font-size: 20px;
+    }
+
+    a
+    {
+        display: block;
+        font-size: 25px;
+    }
+}
+
+a.minimize-option
+{
+    color: white;
+    background: inherit;
+    outline: none;
+    margin-right: 1%;
+    text-decoration: none;
+    outline: none;
+    
+}
+
+.admin-options
+{
+    display: inline-block;
+    margin-right: 1%;
+    padding: 0%;
+    width: 12%;
+    
+    a 
+    { 
+        border: 1px solid rgb(218, 220, 224);
+                
+        display: inline-block; 
+        width: 100%;
+        height: 100%;
+        background: #F8F8F8;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        
+        .fa 
+        { 
+            padding: 5%;
+            background: white; 
+            width: 100%;
+        }
+        
+        span 
+        { 
+            border-top: 1px solid rgb(218, 220, 224);
+            display: block;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        
+        &:hover
+        {
+            color: #464646;
+        }
+    }
+}
